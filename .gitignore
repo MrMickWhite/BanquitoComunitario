@@ -1,0 +1,33 @@
+# Base de datos y reportes generados (NO subir datos reales a GitHub)
+data/*.db
+data/reportes/*.pdf
+
+# Claves PRIVADAS (NO subir a GitHub) - solo se sube el .example
+config/local_secrets.py
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Compilado / instalador (se generan en cada PC, no se suben)
+build/
+dist/
+Salida/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generador de licencias del PROVEEDOR (PRIVADO - nunca subir ni distribuir)
+generador_licencias.py
+data/registro_licencias.json
+data/licencia.dat
+
+# Guía privada del proveedor (no subir)
+GUIA_PROVEEDOR_PRIVADA.md
